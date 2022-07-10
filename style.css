@@ -1,0 +1,191 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+.head {
+    /* background-image: url(img/mosq.jpg); */
+    background-image: linear-gradient(to right, rgb(165, 42, 42, 0.52), rgb(0, 128, 0, 0.30)), url(img/mosq.jpg);
+    background-size: cover;
+    margin-top: -5%;
+    height: 1000px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 50%;
+
+
+}
+
+ul li {
+    padding: 5px 15px;
+    margin-left: 3%;
+    margin-top: 10%;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+
+ul li:hover {
+    background-color: rebeccapurple;
+    border-radius: 5px;
+}
+
+.title {
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 70%;
+    color: aliceblue;
+
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+button {
+    padding: 10px 25px;
+    margin-top: 5%;
+    background-color: brown;
+    color: aliceblue;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.task1 {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.text {
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 5%;
+
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.pic img {
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.task2 {
+    display: flex;
+    margin: 5% 20% 10% 20%;
+}
+
+.text2 {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.text2 h1 {
+    font-size: 50px;
+}
+
+.donation {
+    text-align: center;
+    margin: 3% 20% 5% 20%;
+}
+
+.donation h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px 25% 0px 25%;
+}
+
+.icon-area {
+    display: flex;
+    margin: 0% 25%;
+}
+
+.icon-box {
+    display: flex;
+    width: 50%;
+
+}
+
+.icon-box2 {
+    display: flex;
+    width: 50%;
+
+    margin-left: 25%;
+}
+
+.icon img {
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 40%;
+}
+
+.pic-gallery img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.t {
+    text-align: center;
+    margin-top: -8%;
+    padding: 15px;
+}
+
+.pic-gallery {
+    margin: 3%;
+    float: left;
+    width: 280px;
+}
+
+.gallery {
+    display: flex;
+    margin: 5% 25%;
+}
+
+.donation2 {
+    text-align: center;
+    margin: 3% 20% 5% 20%;
+}
+
+.donation2 h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px 16%;
+}
+
+.t1 {
+    text-align: left;
+}
+
+.t1 a {
+    margin-top: 10%;
+    color: red;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color: wheat;
+}
+
+footer h1 {
+    color: red;
+    font-family: 'Indie Flower', cursive;
+}
